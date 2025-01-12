@@ -7,7 +7,7 @@ function WeatherWidget() {
 
   useEffect(() => {
     const fetchWeather = async () => {
-      const apiKey = ""; // ใส่ API Key ของคุณ
+      const apiKey = " "; // ใส่ API Key ของคุณ
       const city = "Bangkok"; // เมืองที่ต้องการดึงข้อมูล
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
